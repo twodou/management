@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bhb.management.mapper.IUserMapper">
+
+    <update id="changerImgByLoginname" parameterType="String">
+        update m_user
+        set img = #{img}
+        where loginname = #{loginname};
+    </update>
+
+    <insert id="setUser_create">
+        insert INTO `management`.`m_user`( `username`, `userroleid`, `loginname`, `password`, `status`, `salt`, `email`, `phone`, `excellentnumber`, `img`, `sex`, `sfz`, `qq`, `wechar`, `depid`, `birth`, `age`, `logintime`)
+        VALUES (#{username}, #{userroleid}, #{loginname}, #{password},1, #{salt}, #{email}, #{phone}, #{excellentnumber}, #{img},
+        #{sex}, #{sfz}, #{qq}, #{wechar}, #{depid}, #{birth}, #{age}, #{logintime});
+    </insert>
+
+    <insert id="inUserRole">
+        insert into m_user_role (userid, roleid)
+        values (#{userid}, #{roleid});
+    </insert>
+
+    <insert id="inRolePermission">
+        insert into m_role_permission (roleid, permissionid)
+        values (#{roleid}, #{permissionid});
+    </insert>
+</mapper>

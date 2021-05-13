@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="employee/common">
+
+<div class="centerView" data-type="widgets" th:fragment="content">
+    <!-- 内容区域 -->
+    <div class="tpl-content-wrapper" id="userinfo">
+        <div class="row-content am-cf">
+
+            <div class="row">
+
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                    <div class="widget am-cf">
+                        <div class="widget-head am-cf">
+                            <div class="widget-title am-fl">个人信息</div>
+
+                        </div>
+                        <div class="widget-body am-fr">
+
+                            <form class="am-form tpl-form-line-form" th:action="@{/userInfo/updateUser}" method="post">
+                                <div class="am-form-group">
+                                    <label class="am-u-sm-3 am-form-label">头像</label>
+                                    <div class="am-u-sm-6" style="cursor:pointer"
+                                         data-am-modal="{target: '#changeImageModal', closeViaDimmer: 0, width: 400, height: 400}">
+                                        <img style="width: 75px" id="headImage" th:src="${user.getImg()}">
+                                        <small>点击此处更换</small>
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="loginname" class="am-u-sm-3 am-form-label">登陆用户名</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="loginname" name="loginname"
+                                               th:value="${user.getLoginname()}" readonly="readonly">
+
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="username" class="am-u-sm-3 am-form-label">员工姓名 </label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="username" name="username"
+                                               th:value="${user.getUsername()}" readonly="readonly">
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label class="am-u-sm-3 am-form-label">部门 </label>
+                                    <div class="am-u-sm-6">
+                                        <select name="depid" th:value="${user.getDepid()}">-->
+
+                                            <option th:selected="${user.getDepid()==department.getId()}"
+                                                    th:each="department:${departments}"
+                                                    th:text="${department.getDepname()}"
+                                                    th:value="${department.getId()}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label class="am-u-sm-3 am-form-label">性别 </label>
+                                    <div class="am-u-sm-6">
+                                        <label class="am-radio-inline">
+                                            <input th:checked="${user.getSex()==1}" name="sex" value="1" type="radio"/>男
+                                        </label>
+                                        <label class="am-radio-inline">
+                                            <input th:checked="${user.getSex()==2}" name="sex" value="2" type="radio"/>女
+                                        </label>
+                                        <label class="am-radio-inline">
+                                            <input th:checked="${user.getSex()==0}" name="sex" value="0" type="radio"/>未知
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="birth_a" class="am-u-sm-3 am-form-label">生日</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="am-form-field tpl-form-no-bg" id="birth_a"
+                                               th:value="${#dates.format(user.getBirth(),'yyyy-MM-dd')}" name="birth_a">
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="age" class="am-u-sm-3 am-form-label">年龄</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="age" name="age" th:value="${user.getAge()}">
+
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="idcard" class="am-u-sm-3 am-form-label">身份证</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="idcard"
+                                               th:value="${user.getSfz()}" name="sfz">
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="email" class="am-u-sm-3 am-form-label">E-mail</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="email"
+                                               th:value="${user.getEmail()}" name="email">
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="qq" class="am-u-sm-3 am-form-label">QQ</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="qq" name="qq" th:value="${user.getQq()}">
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="wechat" class="am-u-sm-3 am-form-label">微信</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="wechat"
+                                               th:value="${user.getWechar()}" name="wechar">
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="phone" class="am-u-sm-3 am-form-label">电话号码</label>
+                                    <div class="am-u-sm-6">
+                                        <input type="text" class="tpl-form-input" id="phone"
+                                               th:value="${user.getPhone()}" name="phone">
+                                    </div>
+                                </div>
+
+                                <input type="hidden" name="password" th:value="${user.getPassword()}">
+                                <input type="hidden" name="salt" th:value="${user.getSalt()}">
+                                <input type="hidden" name="img" th:value="${user.getImg()}">
+                                <input type="hidden" name="excellentnumber" th:value="${user.getExcellentnumber()}">
+                                <input type="hidden" name="id" th:value="${user.getId()}">
+                                <input type="hidden" name="birth"  th:value="${#dates.format(user.getBirth(),'yyyy-MM-dd HH:mm:ss')}">
+                                <input type="hidden" name="userroleid" th:value="${user.getUserroleid()}">
+
+                                <div class="am-form-group">
+                                    <div class="am-u-sm-6 am-u-sm-push-3">
+                                        <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">保存
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script th:src="@{/static/js/userinfo.js}"></script>
+    <script>
+        $(document).ready(function () {
+            $('#userinfoA').attr('class', 'active');
+            setHeadImage('headImage');
+        });
+    </script>
+</div>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bhb.management.mapper.IPermissionMapper">
+    <select id="queryAllPermissionnameByLoginname" resultType="String">
+        SELECT d.permission
+        FROM `m_user` AS a,
+             `m_role` AS b,
+             `m_user_role` AS c,
+             `m_permission` AS d,
+             `m_role_permission` AS e
+        WHERE a.id = c.userid
+          AND b.id = c.roleid
+          AND b.id = e.roleid
+          AND d.id = e.permissionid
+          AND a.loginname = #{loginname}
+    </select>
+</mapper>

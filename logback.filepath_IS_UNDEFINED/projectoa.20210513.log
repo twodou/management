@@ -1,0 +1,127 @@
+2021-05-13 10:36:43.256 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'departmentMapper' and 'com.bhb.management.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 10:36:43.257 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'excellentEmployeeMapper' and 'com.bhb.management.mapper.ExcellentEmployeeMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 10:36:43.258 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IPermissionMapper' and 'com.bhb.management.mapper.IPermissionMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 10:36:43.259 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IRoleMapper' and 'com.bhb.management.mapper.IRoleMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 10:36:43.259 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IUserMapper' and 'com.bhb.management.mapper.IUserMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 10:36:43.259 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bhb.management.mapper]' package. Please check your configuration.
+2021-05-13 10:36:46.922 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-13 10:37:11.710 [http-nio-8080-exec-6] WARN  n.n.ultraq.thymeleaf.decorators.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2021-05-13 10:37:11.813 [http-nio-8080-exec-6] WARN  n.n.u.thymeleaf.expressions.ExpressionProcessor - Fragment expression "common/common" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2021-05-13 10:37:12.424 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:12.424 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:12.449 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestImageNum
+2021-05-13 10:37:12.450 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getLastMessage
+2021-05-13 10:37:12.450 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestUserName
+2021-05-13 10:37:12.454 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getLastNotice
+2021-05-13 10:37:14.498 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:14.498 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:14.498 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:14.498 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:14.510 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:14.513 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:16.660 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:16.660 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:16.660 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:16.660 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:16.737 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:16.738 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:19.022 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:19.027 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:19.039 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:19.040 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:19.107 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:19.107 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:22.310 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:22.310 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:22.312 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:22.332 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:22.382 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:22.382 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:22.394 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-13 10:37:22.424 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-13 10:37:25.294 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:25.294 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:25.294 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:25.295 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:25.342 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:25.342 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:34.825 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:34.825 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:34.825 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:34.825 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:34.887 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:34.888 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:34.889 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-13 10:37:34.934 [http-nio-8080-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-13 10:37:40.708 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 10:37:40.708 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:40.708 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 10:37:40.708 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 10:37:40.766 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:40.767 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 10:37:40.768 [http-nio-8080-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-13 10:37:40.775 [http-nio-8080-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-13 10:37:42.925 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 10:37:42.925 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /position/query
+2021-05-13 10:37:42.930 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /user/userList
+2021-05-13 10:37:42.975 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 10:37:42.976 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 11:24:40.715 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 11:24:40.717 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 11:24:40.719 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 11:24:40.723 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 11:24:40.870 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 11:24:40.871 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 11:24:47.834 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /department/query
+2021-05-13 11:24:47.835 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getSelf
+2021-05-13 11:24:47.836 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getUserinfo
+2021-05-13 11:24:47.836 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/position/query
+2021-05-13 11:24:47.869 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 11:24:47.873 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 15:41:01.232 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'departmentMapper' and 'com.bhb.management.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 15:41:01.234 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'excellentEmployeeMapper' and 'com.bhb.management.mapper.ExcellentEmployeeMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 15:41:01.234 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IPermissionMapper' and 'com.bhb.management.mapper.IPermissionMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 15:41:01.234 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IRoleMapper' and 'com.bhb.management.mapper.IRoleMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 15:41:01.234 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IUserMapper' and 'com.bhb.management.mapper.IUserMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 15:41:01.235 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bhb.management.mapper]' package. Please check your configuration.
+2021-05-13 15:41:04.934 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-13 17:20:23.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'departmentMapper' and 'com.bhb.management.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:20:23.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'excellentEmployeeMapper' and 'com.bhb.management.mapper.ExcellentEmployeeMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:20:23.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IPermissionMapper' and 'com.bhb.management.mapper.IPermissionMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:20:23.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IRoleMapper' and 'com.bhb.management.mapper.IRoleMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:20:23.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IUserMapper' and 'com.bhb.management.mapper.IUserMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:20:23.734 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bhb.management.mapper]' package. Please check your configuration.
+2021-05-13 17:20:26.705 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-13 17:20:39.553 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-05-13 17:22:50.317 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2021-05-13 17:25:43.994 [http-nio-8080-exec-2] WARN  n.n.ultraq.thymeleaf.decorators.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2021-05-13 17:25:44.109 [http-nio-8080-exec-2] WARN  n.n.u.thymeleaf.expressions.ExpressionProcessor - Fragment expression "common/common" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2021-05-13 17:25:44.590 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 17:25:44.592 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 17:25:44.636 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestImageNum
+2021-05-13 17:25:44.636 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestUserName
+2021-05-13 17:25:44.637 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getLastMessage
+2021-05-13 17:25:44.637 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getLastNotice
+2021-05-13 17:26:23.645 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /notice/notice
+2021-05-13 17:26:25.639 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 17:26:25.639 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestImageNum
+2021-05-13 17:26:25.639 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 17:26:25.640 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestUserName
+2021-05-13 17:26:25.640 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getLastMessage
+2021-05-13 17:26:25.645 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getLastNotice
+2021-05-13 17:47:17.727 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'departmentMapper' and 'com.bhb.management.mapper.DepartmentMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:47:17.732 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'excellentEmployeeMapper' and 'com.bhb.management.mapper.ExcellentEmployeeMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:47:17.732 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'INoticeMapper' and 'com.bhb.management.mapper.INoticeMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:47:17.732 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IPermissionMapper' and 'com.bhb.management.mapper.IPermissionMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:47:17.733 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IRoleMapper' and 'com.bhb.management.mapper.IRoleMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:47:17.733 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'IUserMapper' and 'com.bhb.management.mapper.IUserMapper' mapperInterface. Bean already defined with the same name!
+2021-05-13 17:47:17.733 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bhb.management.mapper]' package. Please check your configuration.
+2021-05-13 17:47:21.695 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-05-13 17:47:34.205 [http-nio-8080-exec-3] WARN  n.n.ultraq.thymeleaf.decorators.DecoratorProcessor - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+2021-05-13 17:47:34.343 [http-nio-8080-exec-3] WARN  n.n.u.thymeleaf.expressions.ExpressionProcessor - Fragment expression "common/common" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2021-05-13 17:47:34.891 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getUnReadMessages
+2021-05-13 17:47:34.891 [http-nio-8080-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getUnReadNotices
+2021-05-13 17:47:34.936 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestImageNum
+2021-05-13 17:47:34.937 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/userinfo/getBestUserName
+2021-05-13 17:47:34.938 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/notice/getLastNotice
+2021-05-13 17:47:34.938 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for POST /projectoa/message/getLastMessage

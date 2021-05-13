@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="common/common">
+
+<div class="centerView" data-type="widgets" th:fragment="content">
+    <!-- 内容区域 -->
+    <div class="tpl-content-wrapper" id="user_create">
+        <div class="row-content am-cf">
+            <div class="row">
+                <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                    <div class="widget am-cf">
+                        <div class="widget-head am-cf">
+                            <div class="widget-title am-fl">创建员工</div>
+                            <div th:text="${msg}"></div>
+
+                        </div>
+                        <div class="widget-body am-fr">
+
+                            <form th:action="@{/user/user_create}" class="am-form tpl-form-border-form tpl-form-border-br" method="post">
+                                <div class="am-form-group">
+                                    <label for="username" class="am-u-sm-3 am-form-label">用户名</label>
+                                    <div class="am-u-sm-6">
+                                        <input th:name="loginname" type="text" class="tpl-form-input" id="username" placeholder="请输入用户名">
+                                        <small>此为登录名，请输入6-20字母或数字</small>
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="realname" class="am-u-sm-3 am-form-label">员工姓名 </label>
+                                    <div class="am-u-sm-6">
+                                        <input th:name="username" type="text" class="tpl-form-input" id="realname" placeholder="请输入员工姓名">
+                                        <small>填写员工真实姓名</small>
+                                    </div>
+                                </div>
+                                <div class="am-form-group">
+                                    <label for="email" class="am-u-sm-3 am-form-label">员工邮箱</label>
+                                    <div class="am-u-sm-6">
+                                        <input th:name="email" type="text" class="tpl-form-input" id="email" placeholder="请输入员工姓名">
+                                        <small>用来发送邮件告知员工登录名以及密码</small>
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <label for="department" class="am-u-sm-3 am-form-label">部门 </label>
+                                    <div class="am-u-sm-9">
+                                        <select name="depid" data-am-selected="{searchBox: 1}"
+                                                id="department">
+                                            <option value="0">部门</option>
+                                            <option th:each="department:${departments}"
+                                                    th:text="${department.getDepname()}"
+                                                    th:value="${department.getId()}">
+                                            </option>
+                                        </select>
+
+                                    </div>
+                                </div>
+
+                                <div class="am-form-group">
+                                    <div class="am-u-sm-9 am-u-sm-push-3">
+                                        <input type="hidden" th:value="${user.getLoginname()}" th:name="adminLoginname">
+                                        <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交
+                                        </button>
+                                        <a th:href="@{/user/page/(n=1,loginname=${user.getLoginname()})}" type="button"
+                                           class="am-btn am-btn-primary tpl-btn-bg-color-success ">返回
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script th:src="@{/static/js/user_create.js}"></script>
+    <script>
+        $(document).ready(function () {
+            $('#userA').attr('class', 'active');
+        });
+    </script>
+</div>
+
+</html>
